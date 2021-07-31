@@ -1,0 +1,53 @@
+@import "partials/_index.scss";
+@import "partials/_main.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+
+    .wrapper {
+        width: 70%; 
+        margin: auto;
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+
+    header {
+        display: flex; 
+        height: 80px;
+        background-color: gray;
+        justify-content: center;
+
+
+        
+        ul { 
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+
+            li {
+                list-style: none;
+                
+                a {
+                    text-decoration: none;
+                    color: white; 
+                    font-weight: 700;
+                    margin: 30px;
+                }
+
+                .active {
+                    background-color: darkgray;
+                }
+            }            
+        }
+    }
+
+}

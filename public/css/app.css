@@ -1,0 +1,85 @@
+table {
+  margin-top: 50px;
+}
+
+table .color-h {
+  background-color: lightblue;
+}
+
+button {
+  background-color: lightgreen;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 3px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .image,
+.card .dettagli {
+  width: 45%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.card .image img,
+.card .dettagli img {
+  width: 100%;
+}
+
+.card .image h4,
+.card .image p,
+.card .dettagli h4,
+.card .dettagli p {
+  padding-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body .wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+body .wrapper h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+body header {
+  display: flex;
+  height: 80px;
+  background-color: gray;
+  justify-content: center;
+}
+
+body header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+body header ul li {
+  list-style: none;
+}
+
+body header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin: 30px;
+}
+
+body header ul li .active {
+  background-color: darkgray;
+}
+

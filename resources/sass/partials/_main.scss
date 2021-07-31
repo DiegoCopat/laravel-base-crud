@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    justify-content: space-around;
+    .image, .dettagli {
+        width: 45%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    
+        img {
+            width: 100%;
+        }
+
+        h4, p {
+            padding-top: 20px;
+        }
+    }
+    
+
+}
+
+
+
+
